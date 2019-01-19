@@ -13,17 +13,30 @@ body {
   width: 100%;
 }
 
-#left-background, #right-background {
+main {
+  /*background-color: blue;*/
+  height: 70%;
+  left: 5%;
+  position: absolute;
+  top: 15%;
+  width: 90%;
+  z-index: 100;
+}
+
+.background-positioning {
   float: left;
   height: 100%;
   width: 50%;
 }
 
-#left-background {
-  background-color: #cececf;
-  /*background-color: #a8a7a8;*/
+.dark-gray {
+  background-color: #a8a7a8;
 }
 
-#right-background {
-  /*background-color: #fdfdfd;*/
+.almost-white {
+  background-color: #fdfdfd;
+}
+
+.pink-salmon {
+  background-color: #edded5;
 }
