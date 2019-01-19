@@ -45,6 +45,16 @@ header {
   padding: 3% 5%;
 }
 
+#previous {
+  position: absolute;
+  left: 3%;
+}
+
+#next {
+  position: absolute;
+  right: 3%;
+}
+
 .background-positioning {
   float: left;
   height: 100%;
@@ -73,10 +83,6 @@ header {
   color: #a8a7a8;
   letter-spacing: -2px;
   width: 100px;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .model-img {
