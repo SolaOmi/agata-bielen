@@ -14,13 +14,22 @@ body {
 }
 
 main {
-  /*background-color: blue;*/
   height: 70%;
   left: 5%;
   position: absolute;
   top: 15%;
   width: 90%;
   z-index: 100;
+}
+
+header {
+  height: 50px;
+  left: 35%;
+  margin-top: 2.0rem;
+  position: absolute;
+  text-align: center;
+  width: 30%;
+  z-index: 10;
 }
 
 .background-positioning {
