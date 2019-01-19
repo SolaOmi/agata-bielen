@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+a, a:hover, a:visited, a:active {
+  text-decoration: none;
+}
+
 body {
   height: 100%;
   margin: 0;
@@ -32,6 +36,16 @@ header {
   z-index: 10;
 }
 
+#left-section {
+  padding-left: 5%;
+  padding-top: 3%;
+}
+
+#right-section {
+  padding-right: 5%;
+  padding-top: 3%;
+}
+
 .background-positioning {
   float: left;
   height: 100%;
@@ -48,4 +62,20 @@ header {
 
 .pink-salmon {
   background-color: #edded5;
+}
+
+.links a {
+  border-bottom: 1px solid #a8a7a8;
+  color: #a8a7a8;
+  margin: 0 0.5rem;
+}
+
+.links span {
+  color: #a8a7a8;
+  letter-spacing: -2px;
+  width: 100px;
+}
+
+.text-right {
+  text-align: right;
 }
