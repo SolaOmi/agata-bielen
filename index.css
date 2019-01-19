@@ -26,7 +26,7 @@ main {
   z-index: 100;
 }
 
-header {
+header, footer {
   height: 50px;
   left: 35%;
   margin-top: 2.0rem;
@@ -34,6 +34,10 @@ header {
   text-align: center;
   width: 30%;
   z-index: 10;
+}
+
+footer {
+  top: 87%;
 }
 
 #left-section {
