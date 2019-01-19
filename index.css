@@ -42,8 +42,7 @@ header {
 }
 
 #right-section {
-  padding-right: 5%;
-  padding-top: 3%;
+  padding: 3% 5%;
 }
 
 .background-positioning {
@@ -78,4 +77,11 @@ header {
 
 .text-right {
   text-align: right;
+}
+
+.model-img {
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
 }
