@@ -54,9 +54,9 @@ footer {
   left: 3%;
 }
 
-#next {
-  position: absolute;
-  right: 3%;
+#catalogue-numbers {
+  top: 30%;
+  text-align: right;
 }
 
 .background-positioning {
@@ -94,4 +94,20 @@ footer {
   height: 100%;
   margin: 0 auto;
   max-width: 100%;
+}
+
+.info-right {
+  position: absolute;
+  right: 3%;
+}
+
+.lead-number {
+  font-size: 3.0rem;
+  margin-bottom: 2.0rem;
+}
+
+.vertical-line {
+  border-right: 1px solid black;
+  height: 100px;
+  margin-right: 0.5rem;
 }
