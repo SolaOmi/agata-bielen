@@ -40,6 +40,12 @@ footer {
   top: 87%;
 }
 
+h1 {
+  font-size: 7.0rem;
+  font-weight: 300;
+  margin-left: 4.0rem;
+}
+
 #left-section {
   padding-left: 5%;
   padding-top: 3%;
