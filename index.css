@@ -41,9 +41,10 @@ footer {
 }
 
 h1 {
-  font-size: 7.0rem;
+  font-size: 6.0rem;
   font-weight: 300;
-  margin-left: 4.0rem;
+  margin-left: 1.6rem;
+  margin-top: 5.0rem;
 }
 
 #left-section {
@@ -63,6 +64,20 @@ h1 {
 #catalogue-numbers {
   top: 30%;
   text-align: right;
+}
+
+#social-links {
+  bottom: 25%;
+  font-size: 0.6rem;
+  position: relative;
+  right: 55%;
+  transform: rotate(-90deg);
+}
+
+#social-links a {
+  border-bottom: 1px solid black;
+  color: black;
+  margin-right: 2.0rem;
 }
 
 .background-positioning {
@@ -91,7 +106,6 @@ h1 {
 
 .links span {
   color: #a8a7a8;
-  letter-spacing: -2px;
   width: 100px;
 }
 
@@ -116,4 +130,8 @@ h1 {
   border-right: 1px solid black;
   height: 100px;
   margin-right: 0.5rem;
+}
+
+.no-space {
+  letter-spacing: -2px;
 }
