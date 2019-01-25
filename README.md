@@ -4,5 +4,4 @@ A Front-End implementation of a magazine template [mockup](https://freebiesbug.c
 
 ## Motivation
 
-Part of my current [100 Days of Code Challenge](https://www.100daysofcode.com/), and to get more practice with
-React.
+Part of my current [100 Days of Code Challenge](https://www.100daysofcode.com/).
